@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configdata>
+	<nev>produccion</nev>
+	<produccion>
+		<url>http://www.traemetodo.com</url>
+		<server>traemetodo.db.8829593.hostedresource.com</server>
+		<user>traemetodo</user>
+		<pass>OnRxAg2c!</pass>
+		<database>traemetodo</database>
+		<email>info@traemetodo.com</email>
+	</produccion>
+	<desarrollo>
+		<url>http://www.accioncreativa.com.ve/traemetodo</url>
+		<server>localhost</server>
+		<user>accioncr_lipe</user>
+		<pass>1H3i9dNV</pass>
+		<database>accioncr_corrado</database>
+		<email>info@traemetodo.com</email>
+	</desarrollo>
+	<local>
+		<url>http://localhost/accioncreativa/traemetodo</url>
+		<server>localhost</server>
+		<user>traemetodo</user>
+		<pass>OnRxAg2c!</pass>
+		<database>traemetodo</database>
+		<email>lipe88rey@hotmail.com</email>
+	</local>
+</configdata>

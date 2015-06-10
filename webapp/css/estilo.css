@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+*{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; padding:0; margin:0; /*text-transform:uppercase;*/}
+
+html, body {
+	padding:0 50px;
+	margin:0;
+	font:normal 11px/normal arial;
+	color:#000;
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-color: #EEE;
+	background-position: center top;
+}
+
+a{ text-decoration:none;}
+
+img{ border:none;}
+
+#contenedor{ text-align: left; width:1200px; margin:auto; margin-top:20px; background-color:#FFF; padding-bottom:20px; border-radius: 5px; }
+
+#logo{padding-left:20px;}
+
+#cabecera{ background-color: #444; color: #333300; font-size:12pt; font-weight: bold; padding: 3 3 3 10px; border-radius: 5px 5px 0 0;}
+#cabecera a{color:#000; text-decoration: none;}
+#cab_link { background-color:#FFF;}
+#cab_der{float:right}
+
+#cuerpo{ margin: 10 0 10 0px;}
+
+#lateral{ width: 145px; float:left;}
+#lateral ul{ margin : 0 0 0 0px; padding: 0 0 0 0px; /*background-color: #444;*/ list-style: none;}
+#lateral li{ background-color: #444;   margin: 2 2 2 2px;   padding: 2 2 2 2px;   font-weight: bold;}
+#lateral a{ color: #F30; text-decoration: none; margin-left:10px; }
+
+#principal{ margin-left: 150px; margin-right:10px; background-color: #ffffff; padding: 4 4 4 4px;}
+
+#contenido{border:2px solid #C0C0C0; background-color:#F2F2F2;}
+
+#titulo_form{font-family:'Lucida Sans','Lucida Sans Unicode','Lucida Grande',sans-serif;	color:#333;	font-size:12px; font-weight:bold}
+
+#wait{ position:absolute; top:0px; left:0px; background:#FF0000; color:#fff; padding:10px; }
+
+#cuadro{text-align:center}
+
+#frm_buscar{text-align:center; padding:0px 0px; margin:0 auto 0 auto;}
+
+#buscador{width:96%;margin:0 auto 0 auto; padding:5px; border: 1px solid #aaaaaa; background-color: #cccccc; color: #222222; font-weight: bold;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;display:inline-block;}
+#buscador a { color: #222222; }
+#buscador:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+#paginador{text-align:center; width:98%; margin:0 auto 0 auto; padding:5px; border: 1px solid #aaaaaa; background-color: #cccccc; color: #222222; font-weight: bold;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;display:inline-block;}
+#paginador a { color: #222222; }
+#paginador:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+#footer { padding:10px 0px; width:100%; text-align:center; font:normal 10px/normal arial; color:#666; }
+
+small{	font-size:9px;}
+
+table{ margin:auto; background-color:#F2F2F2;}
+table#consulta{ width:96%; }
+table#consulta td{ border-bottom:1px solid #D3D3D3; padding:5px 0px 5px;}
+table#consulta th{	background-color:#CDCDCD; padding:5px 0px 5px;}
+
+form.form{ border:2px solid #C0C0C0; background-color:#F2F2F2; width:500px; margin:auto; margin-bottom:20px; }
+form p{	margin:auto; width:450px; margin-top:5px; margin-bottom:3px;}
+form input, textarea{border:1px solid #CCCCCC; padding:3px;}
+form .text{width:400px;}
+form .text2{width:300px;}
+form .textarea{width:450px;}
+
+.noclass{margin:0;}
+
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+
+/*------------------------ Formularios ---------------------*/
+.Titulo_1 { font-family:Verdana, Arial, Helvetica, sans-serif; color:#333; font-size:12px;}
+.link-tenue{color:#666}
+.texto-sindatos{text-align:center;}
+.verde{color:#090}
+.inva{color:#F00}
+.inac{color:#999}
+.pointer { cursor:pointer;}
+.link_file{text-decoration:none;font-family: Arial, Helvetica, sans-serif, sans-serif; font-size: 12px; color:#333; line-height:1.4em; cursor:pointer;}
+.addFile{text-decoration:none;font-family: Arial, Helvetica, sans-serif, sans-serif; font-size: 12px; color:#333; line-height:1.4em; cursor:pointer;}
+
+
+/*------------------------ CSS Custom ---------------------------*/
+#avtek-logo{ border-radius:5px; margin:10px; }

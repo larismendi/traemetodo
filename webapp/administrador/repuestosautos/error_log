@@ -1,0 +1,1 @@
+[22-Feb-2015 08:10:28 America/Caracas] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/accioncr/public_html/traemetodo/webapp/clases/database/database.class.php on line 110

@@ -1,0 +1,11 @@
+.mceToolbarTop * {
+    float:left;
+}
+
+.mceToolbarTop select {
+    width:300px!important;
+}
+
+.mceToolbarTop option {
+    float:none;
+}
