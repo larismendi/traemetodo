@@ -86,10 +86,9 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-<body onload="MM_preloadImages('sections/secc1_r9_c9_s3.jpg','sections/secc1_r9_c9_s2.jpg','repuestos-para-autos/repuestos-para-autos_2.jpg','equipos-electronicos/equipos-electronicos_2.jpg','repuestos-yates-lanchas/repuestos-para-lanchas-yates_2.jpg')"><table width="100%" border="0" cellspacing="0" cellpadding="0">
-
+<body onload="MM_preloadImages('sections/secc1_r9_c9_s3.jpg','sections/secc1_r9_c9_s2.jpg','repuestos-para-autos/repuestos-para-autos_2.jpg','equipos-electronicos/equipos-electronicos_2.jpg','repuestos-yates-lanchas/repuestos-para-lanchas-yates_2.jpg')">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tr>
-
 		<td align="right" bgcolor="#FFFFFF">&nbsp;</td>
 	</tr>
 	<tr>
@@ -712,7 +711,7 @@ function MM_swapImage() { //v3.0
 
 		<label for="pais">País:</label>
 
-		<input name="pais" type="text" id="pais" placeholder="Ingrese su pais" size="43" class="required" value="" />
+		<input name="pais" type="text" id="pais" placeholder="Ingrese su pais" size="43" class="required" value="" /> <input type="checkbox" id="eeuu" value="1" /> EEUU
 
 		<label for="estado">Estado:</label>
 

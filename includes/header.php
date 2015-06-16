@@ -228,7 +228,7 @@ a.boton:hover{ color: #333; }
 
 .form .texto-captcha { color: #FF9900; font-size: 1em; }
 
-.form input { width: 220px; }
+.form input[type="text"] { width: 220px; }
 
 .form textarea { height: 100px; width: 405px; }
 
@@ -441,9 +441,8 @@ body {
 			          			<a href="enviar.php" class="MenuBarItemSubmenu">COMO ENVIAR</a>
 
 					            <ul>
-
-					            	<li><a href="rastrear-carga.html">RASTREAR CARGA</a></li>
-
+                                    <li><a href="rastrear-carga.html">RASTREAR CARGA</a></li>
+					            	<li><a href="rastrear-carga.html">ENVIO DESDE EEUU</a></li>
 				                </ul>
 
 		              		</li>
