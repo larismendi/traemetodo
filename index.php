@@ -219,7 +219,11 @@ function MM_swapImage() { //v3.0
                                             </tr>
                                             <tr>
                                               <td colspan="11"><img name="secc1_r3_c5" src="sections/secc1_r3_c5.jpg" width="332" height="23" id="secc1_r3_c5" alt="" /></td>
-                                              <td rowspan="2" colspan="5"><a href="#form1" class="inline" target="_self"><img src="sections/secc1_r3_c16.jpg" alt="" name="secc1_r3_c16" width="127" height="31" border="0" id="secc1_r3_c16" /></td>
+                                              <td rowspan="2" colspan="5">
+                                                  <a href="#form1" class="inline" target="_self"><img src="sections/secc1_r3_c16.jpg" alt="" name="secc1_r3_c16" width="127" height="31" border="0" id="secc1_r3_c16" /></a>
+
+                                                  <a href="#form4" class="inline" style="color: black; width: 200px" target="_self">Cuéntale a un amigo</a>
+                                              </td>
                                               <td rowspan="3" colspan="5"><img name="secc1_r3_c21" src="sections/secc1_r3_c21.jpg" width="183" height="43" id="secc1_r3_c21" alt="" /></td>
                                               <td><img src="sections/spacer.gif" alt="" name="undefined_5" width="1" height="23" id="undefined_5" /></td>
                                             </tr>
@@ -778,6 +782,25 @@ function MM_swapImage() { //v3.0
         <input name="enviar3" id="enviar3" value="Enviar" class="submit" type="submit" />
         <div id="mensaje_return3">Puede envíar su consulta o cualquier solicitud.</div>
 	</form>
+    <form name="form4" id="form4" class="form shadowed-all" method="post" style="margin:0 auto;" action="">
+        <p>Cuéntale a un Amigo:</p>
+        <label for="nombre"><strong>Tu Nombre y Apellido:</strong></label>
+        <input name="nombre" type="text" id="nombre" placeholder="Tu Nombre y Apellido" size="43" class="required" value="" />
+        <label for="email"><strong>Tu Email:</strong></label>
+        <input name="email" type="text" id="email4" placeholder="Tu Email" size="43" class="required email" value="" />
+        <label for="email">Email Amigo 1ro:</label>
+        <input name="email_amigo1" type="text" id="email_amigo1" placeholder="Ingrese el email de su amigo" size="43" class="required email" value="" />
+        <label for="email">Email Amigo 2do:</label>
+        <input name="email_amigo2" type="text" id="email_amigo2" placeholder="Ingrese el email de su amigo" size="43" class="required email" value="" />
+        <label for="email">Email Amigo 3ro:</label>
+        <input name="email_amigo3" type="text" id="email_amigo3" placeholder="Ingrese el email de su amigo" size="43" class="required email" value="" />
+        <label for="descpart"><strong>Mensaje al amigo(s):</strong></label>
+        <textarea name="mens_amigo" id="mens_amigo" placeholder="Indique el mensaje para su amigo(s)" class="required"></textarea>
+        <span class="countdown"></span>
+        <br>
+        <input name="enviar4" id="enviar4" value="Enviar" class="submit" type="submit" />
+        <div id="mensaje_return4">Puede avisarle a sus amigos sobre nosotros.</div>
+    </form>
 </div>
 
 <script>
@@ -789,6 +812,17 @@ function MM_swapImage() { //v3.0
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript">
 $(function(){
+    function updateCountdown() {
+        // 140 is the max message length
+        var remaining = 140 - $('#mens_amigo').val().length;
+        //if(remaining < 0){
+            //$('.countdown').css('color':'red');
+        //}else{$('.countdown').css('color':'black');}
+        $('.countdown').text(remaining + ' Caracteres.');
+    }
+    updateCountdown();
+    $('#mens_amigo').change(updateCountdown);
+    $('#mens_amigo').keyup(updateCountdown);
 	$("#form1").validate({
 		rules: {
 			emailr: {
@@ -909,63 +943,33 @@ $(function(){
 </script>
 <script type="text/javascript">
 	$(function() {
-
 		$(".inline").colorbox({inline:true, width:"50%"});
-
 		var Page = (function() {
-
 			var $nav = $( '#nav-dots > span' ),
-
-			slitslider = $( '#slider' ).slitslider( { 
-
+			slitslider = $( '#slider' ).slitslider( {
 				onBeforeChange : function( slide, pos ) {
-
 					$nav.removeClass( 'nav-dot-current' );
-
 					$nav.eq( pos ).addClass( 'nav-dot-current' );
-
 				}
-
 			}),
-
 			init = function() { initEvents(); },
-
 			initEvents = function() {
-
 				$nav.each( function( i ) {
-
 					$( this ).on( 'click', function( event ) {
-
 						var $dot = $( this );
-
 						if( !slitslider.isActive() ) {
-
 							$nav.removeClass( 'nav-dot-current' );
-
 							$dot.addClass( 'nav-dot-current' );
-
 						}
-
 						slitslider.jump( i + 1 );
-
 						return false;
-
 					});
-
 				});
-
 			};
-
 			return { init : init };
-
-		})();	
-
+		})();
 		Page.init();
-
 	});
-
 	var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
-
 </script>
-
 <?php include_once("includes/footer.php"); ?>
