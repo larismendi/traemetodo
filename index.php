@@ -1,22 +1,15 @@
 <?php require_once("webapp/clases/database/database.class.php");?>
-
 <?php //require_once("webapp/web/clases/estados.class.php");?>
-
 <?php //require_once("webapp/web/controlador/estados.php");?>
-
-<?php 
-
+<?php
 $title = "REX SUPPLIES LLC  | Cargas aéreas y marítimas a nivel mundial con Traemetodo";
 
 include_once('includes/header.php'); 
 
 ?>
-
 <meta name="keywords" content="comprar por internet, compras online, comprarar en amazon, compra de repuestos, repuestos para autos, repuestos para yates, repuestos para lanchas, comprar equipos electronicos por internet, compras, envios a los estados unidos, " />
-
 <style type="text/css">
 <!--
-
 .Estilo4 {font-size: 22px}
 .Estilo5 {
 	font-size: 20px;
@@ -92,7 +85,7 @@ function MM_swapImage() { //v3.0
 		<td align="right" bgcolor="#FFFFFF">&nbsp;</td>
 	</tr>
 	<tr>
-      <td align="center" bgcolor="#FFFFFF"><table width="960" border="0" cellspacing="0" cellpadding="0">
+        <td align="center" bgcolor="#FFFFFF"><table width="960" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="304" valign="top"><table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="303">
                 <!-- fwtable fwsrc="ESTRUCTURA -PICADA.fw.png" fwpage="Page 1" fwbase="repuestos-para-autos.jpg" fwstyle="Dreamweaver" fwdocid = "713109994" fwnested="0" -->
@@ -172,29 +165,19 @@ function MM_swapImage() { //v3.0
                 </tr>
             </table></td>
           </tr>
-      </table></td>
-  </tr>
-
-	<tr>	    
-
+      </table>
+        </td>
+    </tr>
+    <tr>
 		<td align="center" bgcolor="#FFFFFF">
-
 			<table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
-
 				<tr>
-
 					<td align="center" valign="top">
-
 						<table width="960" border="0" cellspacing="0" cellpadding="0">
-
 							<tr>
-
 								<td align="center" valign="top">
-
 									<table width="960" border="0" cellspacing="0" cellpadding="0">
-
 										<tr>
-
 										  <td align="center" valign="top"><table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="960">
                                             <!-- fwtable fwsrc="ESTRUCTURA -para exportar.fw.png" fwpage="Page 1" fwbase="secc1.jpg" fwstyle="Dreamweaver" fwdocid = "713109994" fwnested="0" -->
                                             <tr>
@@ -288,21 +271,19 @@ function MM_swapImage() { //v3.0
                                             </tr>
                                           </table></td>
 										</tr>
-									</table>								</td>
+									</table>
+                                </td>
 							</tr>
-						</table>					</td>
+						</table>
+                    </td>
 				</tr>
-			</table>		</td>
+			</table>
+        </td>
 	</tr>
-
 	<tr>
-
 		<td align="center" bgcolor="#FFFFFF">
-
 			<table width="960" border="0" cellspacing="0" cellpadding="0">
-
 				<tr>
-
 					<td width="635" valign="top"><table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="634">
 					  <!-- fwtable fwsrc="ESTRUCTURA -para exportar.fw.png" fwpage="Page 1" fwbase="secc3.jpg" fwstyle="Dreamweaver" fwdocid = "713109994" fwnested="0" -->
 					  <tr>
@@ -431,912 +412,502 @@ function MM_swapImage() { //v3.0
 					    <td colspan="6"><img name="secc3_r22_c1" src="sections2/secc3_r22_c1.jpg" width="417" height="26" id="secc3_r22_c1" alt="" /></td>
 					    <td><img src="sections2/spacer.gif" alt="" name="undefined_6" width="1" height="26" id="undefined_6" /></td>
 				      </tr>
-				    </table></td>
-
+				    </table>
+                    </td>
 						<td width="325" valign="top"><table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="326">
-
 							<!-- fwtable fwsrc="ESTRUCTURA -PICADA.fw.png" fwpage="Page 1" fwbase="sig.jpg" fwstyle="Dreamweaver" fwdocid = "713109994" fwnested="0" -->
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="16" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="3" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="12" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="36" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="75" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="38" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="108" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="22" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="14" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="1" /></td>
 							</tr>
-
 							<tr>
-
 								<td colspan="11"><img src="siguenos/sig_r1_c1.jpg" alt="" name="sig_r1_c1" width="326" height="21" border="0" id="sig_r1_c1" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="21" /></td>
 							</tr>
-
 							<tr>
-
 								<td rowspan="2" colspan="4"><img src="siguenos/sig_r2_c1.jpg" alt="" name="sig_r2_c1" width="32" height="48" border="0" id="sig_r2_c1" /></td>
-
 								<td rowspan="2" colspan="4"><div align="center"><span class="Estilo6">SÍGUENOS Y PREGUNTA</span></div></td>
-
 								<td rowspan="2" colspan="3"><img src="siguenos/sig_r2_c9.jpg" alt="" name="sig_r2_c9" width="37" height="48" border="0" id="sig_r2_c9" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="37" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="11" /></td>
 							</tr>
-
 							<tr>
-
 								<td rowspan="20" colspan="3"><img src="siguenos/sig_r4_c1.jpg" alt="" name="sig_r4_c1" width="20" height="766" border="0" id="sig_r4_c1" /></td>
-
 								<td colspan="6" rowspan="16" align="center" valign="top">
-
 									<table width="285" border="0" cellspacing="0" cellpadding="0">
-
 										<tr>
-
 											<td align="center" valign="top">&nbsp;</td>
-										</tr>
 
+                                        </tr>
 										<tr>
-
 											<td align="center" valign="top"><a class="twitter-timeline" href="https://twitter.com/TRAEMETODO" data-widget-id="523699025556430848">Tweets por el @TRAEMETODO.</a>
-
-												<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>											</td>
-										</tr>
-
+												<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                            </td>
+									    </tr>
 										<tr>
-
 											<td align="center" valign="top"><a href="https://www.facebook.com/traemetodo?fref=ts"></a></td>
 										</tr>
-
 										<tr>
-
 											<td align="center" valign="top">&nbsp;</td>
 										</tr>
-
 										<tr>
-
 											<td align="center" valign="top"><a href="https://www.facebook.com/traemetodo" target="_blank"><img src="img/fb.jpg" alt="facebook traemetodo" width="266" height="225" /></a></td>
 										</tr>
-									</table>								</td>
-
+									</table>
+                                </td>
 								<td rowspan="20" colspan="2"><img src="siguenos/sig_r4_c10.jpg" alt="" name="sig_r4_c10" width="15" height="766" border="0" id="sig_r4_c10" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="180" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="8" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="28" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="8" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="19" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="19" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="32" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="10" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="9" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="104" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="81" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="28" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="10" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="27" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="12" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="78" /></td>
 							</tr>
-
 							<tr>
-
 								<td rowspan="4" colspan="6"><img src="siguenos/sig_r20_c4.jpg" alt="" name="sig_r20_c4" width="291" height="113" border="0" id="sig_r20_c4" /></td>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="51" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="28" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="8" /></td>
 							</tr>
-
 							<tr>
-
 								<td><img src="siguenos/spacer.gif" alt="" name="undefined_7" width="1" height="26" /></td>
 							</tr>
-
-						</table>					</td>
+						</table>
+                    </td>
 				</tr>
-			</table>		</td>      
+			</table>
+        </td>
 	</tr>
-
 	<tr>	
-
-		<td align="center" bgcolor="#FFFFFF">    	
-
-			<table width="960" border="0" cellspacing="0" cellpadding="0">	    	
-
+		<td align="center" bgcolor="#FFFFFF">
+			<table width="960" border="0" cellspacing="0" cellpadding="0">
 				<tr>
-
 					<td width="196" align="center" valign="top"><a href="http://www.amazon.com/" target="_blank"><img src="img/amazon.fw.png" alt="Amazon compras" width="160" height="200" border="0"></a></td>
-
 					<td width="764" align="center" valign="top" style="z-index:-100">
-
-						<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=GetScriptTemplate"> </SCRIPT> 	
-
+						<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=GetScriptTemplate"> </SCRIPT>
 						<NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>					</td>
 				</tr>
-			</table>		</td>
+			</table>
+        </td>
 	</tr>
-
 	<tr>
-
 		<td align="center" bgcolor="#FFFFFF">
-
 			<table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
-
 				<tr>
-
 					<td align="center" valign="top"><img src="banderas.jpg" width="960" height="112" border="0"></td>
 				</tr>
-
 				<tr>
-
 					<td align="center" valign="top">
-
 						<!-- Histats.com  (div with counter) -->
-
 						<div id="histats_counter"></div>
-
 						<!-- Histats.com  START  (aync)-->
-
 						<script type="text/javascript">var _Hasync= _Hasync|| [];_Hasync.push(['Histats.start', '1,2877379,4,3,170,30,00011111']);_Hasync.push(['Histats.fasi', '1']);_Hasync.push(['Histats.track_hits', '']);(function() {var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;hs.src = ('http://s10.histats.com/js15_as.js');(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);})();</script>
-
 						<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2877379&101"alt="circuito contador" border="0"></a></noscript>
-
-						<!-- Histats.com  END  -->					</td>
+						<!-- Histats.com  END  -->
+                    </td>
 				</tr>
-			</table>		</td>
+			</table>
+        </td>
 	</tr>
-
 </table>
-
 <div bgcolor="#FFC929" style="display:none" style="margin:0 auto;">
-
 	<p>&nbsp;</p>
-
 	<form name="form1" id="form1" class="form shadowed-all" method="post" style="margin:0 auto;" action="">
-
 		<p>REGÍSTRATE</p>
-
 		<label for="nombre">Nombre y Apellido:</label>
-
 		<input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre y apellido" size="43" class="required" value="" />
-
 		<label for="email">Email:</label>
-
 		<input name="email" type="text" id="email" placeholder="Ingrese su email" size="43" class="required email" value="" />
-
 		<label for="email">Repite Email:</label>
-
 		<input name="emailr" type="text" id="emailr" placeholder="Ingrese de nuevo el email" size="43" class="required email" value="" />
-
 		<label for="telefono_local">Teléfono Local:</label>
-
-		<input name="telefono_local" type="text" id="telefono_local" placeholder="Ingrese su teléfono local" size="43" class="required" value="" />
-
+		<input name="telefono_local" type="text" id="telefono_local" placeholder="Ingrese su teléfono local" size="43" maxlength="50" class="required" value="" />
 		<label for="telefono_movil">Teléfono movil:</label>
-
-		<input name="telefono_movil" type="text" id="telefono_movil" placeholder="Ingrese su teléfono movil" size="43" class="required" value="" />
-
+		<input name="telefono_movil" type="text" id="telefono_movil" placeholder="Ingrese su teléfono movil" size="43" maxlength="50" class="required" value="" />
 		<label for="pais">País:</label>
-
 		<input name="pais" type="text" id="pais" placeholder="Ingrese su pais" size="43" class="required" value="" /> <input type="checkbox" id="eeuu" value="1" /> EEUU
-
 		<label for="estado">Estado:</label>
-
 		<input name="estado" type="text" id="estado" placeholder="Ingrese su estado" size="43" class="required" value="" />
-
 		<label for="ciudad">Ciudad:</label>
-
 		<input name="ciudad" type="text" id="ciudad" placeholder="Ingrese su ciudad" size="43" class="required" value="" />
-
 		<label for="zipcode">Código Postal</label>
-
 		<input name="zipcode" type="text" id="zipcode" placeholder="Ingrese su código postal" size="43" class="required" value="" />
-
 		<label for="direccion">Dirección detallada:</label>
-
 		<textarea name="direccion" id="direccion" placeholder="Ingrese su dirección detallada" class="required"></textarea>
-
 		<input id="enviar" value="Enviar" class="submit" type="submit" name="enviar" />
-
 		<div id="mensaje_return">Puede envíar su consulta o cualquier solicitud.</div>
-
 	</form>
-
 	<form name="form2" id="form2" class="form shadowed-all" method="post" style="margin:0 auto;" action="">
-
 	    <p>SOLICITUD DE REPUESTOS PARA YATES Y LANCHAS</p>
-
 	    <label for="nombre"><strong>Nombre y Apellido:</strong></label>
-
 	    <input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre y apellido" size="43" class="required" value="" />
-
 	    <label for="email"><strong>Email:</strong></label>
-
 	    <input name="email" type="text" id="email2" placeholder="Ingrese su email" size="43" class="required email" value="" />
-
 	    <label for="email">Repite Email:</label>
-
 		<input name="emailr2" type="text" id="emailr2" placeholder="Ingrese de nuevo el email" size="43" class="required email" value="" />
-
 	    <label for="telefono"><strong>Teléfono:</strong></label>
-
 	    <input name="telefono" type="text" id="telefono" placeholder="Ingrese su teléfono" size="43" class="required" value="" />
-
 	    <label for="tipo_emb"><strong>Tipo de Embarcación:</strong></label>
-
 	    <input name="tipo_emb" type="text" id="tipo_emb" placeholder="Ingrese el tipo de embarcación" size="43" class="required" value="" />
-
 	    <label for="marca"><strong>Marca:</strong></label>
-
 	    <input name="marca" type="text" id="marca" placeholder="Ingrese la marca" size="43" class="required" value="" />
-
 	    <label for="modelo"><strong>Modelo:</strong></label>
-
 	    <input name="modelo" type="text" id="modelo" placeholder="Ingrese el modelo" size="43" class="required" value="" />
-
 	    <label for="anio"><strong>A&ntilde;o:</strong></label>
-
 	    <input name="anio" type="text" id="anio" placeholder="Ingrese el año" size="43" class="required" value="" />
-
 	    <label for="vin"><strong>VIN:</strong></label>
-
 	    <input name="vin" type="text" id="vin" placeholder="Ingrese el VIN" size="43" class="required" value="" />
-
 	    <label for="descripcion"><strong>Descripción y código de repuesto:</strong></label>
-
 	    <textarea name="descripcion" id="descripcion" placeholder="Ingrese la descripción y código de repuesto" class="required"></textarea>
-
 	    <input name="enviar2" id="enviar2" value="Enviar" class="submit" type="submit" />
-
 	    <div id="mensaje_return2">Llenar y completar todos los datos solicitados, son importantes.</div>
-
   	</form>
-
   	<form name="form3" id="form3" class="form shadowed-all" method="post" style="margin:0 auto;" action="">
-
         <p>SOLICITUD DE REPUESTOS PARA AUTOS</p>
-
         <label for="nombre"><strong>Nombre y Apellido:</strong></label>
-
         <input name="nombre" type="text" id="nombre" placeholder="Su Nombre y Apellido" size="43" class="required" value="" />
-
        	<label for="email"><strong>Email:</strong></label>
-
         <input name="email" type="text" id="email3" placeholder="Su Email" size="43" class="required email" value="" />
-
         <label for="email">Repite Email:</label>
-
 		<input name="emailr3" type="text" id="emailr3" placeholder="Ingrese de nuevo el email" size="43" class="required email" value="" />
-
         <label for="telefono"><strong>Teléfono:</strong></label>
-
         <input name="telefono" type="text" id="telefono" placeholder="Su Teléfono" size="43" maxlength="20" class="required" value="" />
-
         <label for="marca"><strong>Marca:</strong></label>
-
         <select name="marca" id="marca2" class="required">
-
         	<option value="">Seleccione una marca</option>
-
 			<option value="Acura">Acura</option>
-
 			<option value="Audi">Audi</option>
-
 			<option value="Maston Martin">Aston Martin</option>
-
 			<option value="Bmw">Bmw</option>
-
 			<option value="Buick">Buick</option>
-
 			<option value="Cadillac">Cadillac</option>
-
 			<option value="Chrysler">Chrysler</option>
-
 			<option value="Chevrolet">Chevrolet</option>
-
 			<option value="Dodge">Dodge</option>
-
 			<option value="Eagle">Eagle</option>
-
 			<option value="Ford">Ford</option>
-
 			<option value="Geo">Geo</option>
-
 			<option value="Gmc">Gmc</option>
-
 			<option value="Honda">Honda</option>
-
 			<option value="Hummer">Hummer</option>
-
 			<option value="Hyundai">Hyundai</option>
-
 			<option value="Infiniti">Infiniti</option>
-
 			<option value="Isuzu">Isuzu</option>
-
 			<option value="Jaguar">Jaguar</option>
-
 			<option value="Jeep">Jeep</option>
-
 			<option value="Kia">Kia</option>
-
 			<option value="Land Rover">Land Rover</option>
-
 			<option value="Lexus">Lexus</option>
-
 			<option value="Lincoln">Lincoln</option>
-
 			<option value="Mazda">Mazda</option>
-
 			<option value="Mercedes Benz">Mercedes Benz </option>
-
 			<option value="Mercury">Mercury</option>
-
 			<option value="Mini">Mini</option>
-
 			<option value="Mitsubishi">Mitsubishi</option>
-
 			<option value="Nissan">Nissan </option>
-
 			<option value="Oldsmobile">Oldsmobile</option>
-
 			<option value="Plymouth">Plymouth</option>
-
 			<option value="Pontiac">Pontiac</option>
-
 			<option value="Porsche">Porsche</option>
-
 			<option value="Saab">Saab</option>
-
 			<option value="Scion">Scion</option>
-
 			<option value="Volvo">Volvo</option><option value="Saturn">Saturn</option>
-
 			<option value="Subaru">Subaru</option>
-
 			<option value="Suzuki">Suzuki</option>
-
 			<option value="Toyota">Toyota</option>
-
 			<option value="Volkswagen">Volkswagen</option>
-
         	<option value="1">Otros</option>
-
        	</select>
-
        	<div id="div_marca" style="display:none">
-
        		<label for="otra_marca">Otra marca:</label>
-
         	<input name="otra_marca" type="text" id="otra_marca" placeholder="Ingrese otra marca" size="43" maxlength="40" class="required" value="" />
-
        	</div>
-
        	<label for="modelo"><strong>Modelo:</strong></label>
-
         <input name="modelo" type="text" id="modelo" placeholder="Indique el módelo del vehículo" size="43" maxlength="40" class="required" value="" />
-
         <label for="anio"><strong>Año:</strong></label>
-
         <input name="anio" type="text" id="anio" placeholder="Indique el año del vehículo" size="43" maxlength="4" class="required" value="" />
-
         <label for="motor"><strong>Motor:</strong></label>
-
         <select name="motor" id="motor" class="required">
-
         	<option value="">Seleccione tamaño del motor</option>
-
 			<option value="1.1L">1.1L</option>
-
 			<option value="1.2L">1.2L</option>
-
 			<option value="1.3L">1.3L</option>
-
 			<option value="1.4L">1.4L</option>
-
 			<option value="1.5L">1.5L</option>
-
 			<option value="1.6L">1.6L</option>
-
 			<option value="1.7L">1.7L</option>
-
 			<option value="1.8L">1.8L</option>
-
 			<option value="1.9L">1.9L</option>
-
 			<option value="2.0L">2.0L</option>
-
 			<option value="2.1L">2.1L</option>
-
 			<option value="2.2L">2.2L</option>
-
 			<option value="2.3L">2.3L</option>
-
 			<option value="2.4L">2.4L</option>
-
 			<option value="2.5L">2.5L</option>
-
 			<option value="2.6L">2.6L</option>
-
 			<option value="2.7L">2.7L</option>
-
 			<option value="2.8L">2.8L</option>
-
 			<option value="2.9L">2.9L</option>
-
 			<option value="3.0L">3.0L</option>
-
 			<option value="3.1L">3.1L</option>
-
 			<option value="3.2L">3.2L</option>
-
 			<option value="3.3L">3.3L</option>
-
 			<option value="3.4L">3.4L</option>
-
 			<option value="3.5L">3.5L</option>
-
 			<option value="3.6L">3.6L</option>
-
 			<option value="3.7L">3.7L</option>
-
 			<option value="3.8L">3.8L</option>
-
 			<option value="3.9L">3.9L</option>
-
 			<option value="4.0L">4.0L</option>
-
 			<option value="4.1L">4.1L</option>
-
 			<option value="4.2L">4.2L</option>
-
 			<option value="4.3L">4.3L</option>
-
 			<option value="4.4L">4.4L</option>
-
 			<option value="4.5L">4.5L</option>
-
 			<option value="4.6L">4.6L</option>
-
 			<option value="4.7L">4.7L</option>
-
 			<option value="4.8L">4.8L</option>
-
 			<option value="4.9L">4.9L</option>
-
 			<option value="5.0L">5.0L</option>
-
 			<option value="5.1L">5.1L</option>
-
 			<option value="5.2L">5.2L</option>
-
 			<option value="5.3L">5.3L</option>
-
 			<option value="5.4L">5.4L</option>
-
 			<option value="5.5L">5.5L</option>
-
 			<option value="5.6L">5.6L</option>
-
 			<option value="5.7L">5.7L</option>
-
 			<option value="5.8L">5.8L</option>
-
 			<option value="5.9L">5.9L</option>
-
 			<option value="6.0L">6.0L</option>
-
 			<option value="6.1L">6.1L</option>
-
 			<option value="6.2L">6.2L</option>
-
 			<option value="6.3L">6.3L</option>
-
 			<option value="6.4L">6.4L</option>
-
 			<option value="6.5L">6.5L</option>
-
 			<option value="6.6L">6.6L</option>
-
 			<option value="6.7L">6.7L</option>
-
 			<option value="6.8L">6.8L</option>
-
 			<option value="6.9L">6.9L</option>
-
 			<option value="7.0L">7.0L</option>
-
 			<option value="7.1L">7.1L</option>
-
 			<option value="7.2L">7.2L</option>
-
 			<option value="7.3L">7.3L</option>
-
 			<option value="7.4L">7.4L</option>
-
 			<option value="7.5L">7.5L</option>
-
 			<option value="7.6L">7.6L</option>
-
         	<option value="1">Otros</option>
-
         	<option value="No lo conozco">No lo conozco</option>
-
        	</select>
-
        	<div id="div_motor" style="display:none">
-
        		<label for="otro_motor"><strong>Otro motor:</strong></label>
-
         	<input name="otro_motor" type="text" id="otro_motor" placeholder="Ingrese otro motor" size="43" maxlength="40" class="required" value="" />
-
        	</div>
-
         <label for="transmision"><strong>Transmisión:</strong></label>
-
         <select name="transmision" id="transmision" class="required">
-
           <option value="">Seleccione transmisión del vehículo</option>
-
           <option value="Automática">Automática</option>
-
           <option value="Manual">Manual</option>
-
           <option value="1">Otros</option>
-
         </select>
-
         <div id="div_transmision" style="display:none">
-
    		  <label for="otra_transmision"><strong>Otra transmisión:</strong></label>
-
     	  <input name="otra_transmision" type="text" id="otra_transmision" placeholder="Ingrese otra transmición" size="43" maxlength="40" class="required" value="" />
-
        	</div>
-
         <label for="vin"><strong>Serial carrocería o VIN:</strong></label>
-
         <input name="vin" type="text" id="vin" placeholder="Indique el serial carrocería o VIN" size="43" class="required" value="" />
-
         <label for="nropart"><strong>Código repuesto o Parts Number:</strong></label>
-
         <textarea name="nropart" id="nropart" placeholder="Indique el Código repuesto o Parts Number" class="required"></textarea>
-
         <label for="descpart"><strong>Descripción repuesto:</strong></label>
-
         <textarea name="descpart" id="descpart" placeholder="Indique la Descripción del repuesto" class="required"></textarea>
-
         <input name="enviar3" id="enviar3" value="Enviar" class="submit" type="submit" />
-
         <div id="mensaje_return3">Puede envíar su consulta o cualquier solicitud.</div>
-
 	</form>
-
 </div>
 
 <script>
-
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57426821-1', 'auto');  ga('send', 'pageview');</script>
-
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
-
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
-
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
-
 <script type="text/javascript" src="js/jquery.validate.js"></script>
-
 <script type="text/javascript">
-
 $(function(){
-
 	$("#form1").validate({
-
 		rules: {
-
 			emailr: {
-
 				equalTo: '#email'
-
 			}
-
 		},
-
 		submitHandler: function(form){
-
 			$.post("registro_success.php", $("#form1").serialize(), function(data){
-
 				if(data){
-
 					$('#form1').each(function(){ this.reset(); });
-
 					$("#mensaje_return").html("<span style='color:green;'>"+data+"</span>");
-
 				}else{
-
-					alert('No se pudo enviar su solicitud');				
-
-				}			
-
-			});			
-
-			return false;		
-
-		}
-
-	});
-
-	$("#form2").validate({
-
-		rules: {
-
-			emailr2: {
-
-				equalTo: '#email2'
-
-			}
-
-		},
-
-		submitHandler: function(form){
-
-			$.post("yates_success.php", $("#form2").serialize(), function(data){
-
-				if(data){
-
-					$('#form2').each(function(){ this.reset(); });
-
-					$("#mensaje_return2").html("<span style='color:green;'>"+data+"</span>");
-
-				}else{
-
-					alert('No se pudo enviar su solicitud');				
-
-				}			
-
-			});			
-
-			return false;		
-
-		}
-
-	});
-
-	$("#form3").validate({
-
-		rules: {
-
-			emailr3: {
-
-				equalTo: '#email3'
-
-			}
-
-		},
-
-		ignore: ".ignore",
-
-		submitHandler: function(form){
-
-			$.post("autos_success.php", $("#form3").serialize(), function(data){
-
-				if(data){
-
-					$('#form3').each(function(){ this.reset(); });
-
-					$("#mensaje_return3").html("<span style='color:green;'>"+data+"</span>");
-
-				}else{
-
 					alert('No se pudo enviar su solicitud');
-
 				}
-
 			});
-
-			return false;		
-
+			return false;
 		}
-
 	});
-
+	$("#form2").validate({
+		rules: {
+			emailr2: {
+				equalTo: '#email2'
+			}
+		},
+		submitHandler: function(form){
+			$.post("yates_success.php", $("#form2").serialize(), function(data){
+				if(data){
+					$('#form2').each(function(){ this.reset(); });
+					$("#mensaje_return2").html("<span style='color:green;'>"+data+"</span>");
+				}else{
+					alert('No se pudo enviar su solicitud');
+				}
+			});
+			return false;
+		}
+	});
+    $("#form3").validate({
+		rules: {
+			emailr3: {
+				equalTo: '#email3'
+			}
+		},
+		ignore: ".ignore",
+		submitHandler: function(form){
+			$.post("autos_success.php", $("#form3").serialize(), function(data){
+				if(data){
+					$('#form3').each(function(){ this.reset(); });
+					$("#mensaje_return3").html("<span style='color:green;'>"+data+"</span>");
+				}else{
+					alert('No se pudo enviar su solicitud');
+				}
+			});
+			return false;
+		}
+	});
 	if($('#marca2').val() == 1){
-
 		$('#div_marca').show();
-
 		$('#otra_marca').removeClass('ignore');
-
 	}else{
-
 		$('#div_marca').hide();
-
 		$('#otra_marca').addClass('ignore');
-
 	}
-
 	$('#marca2').change(function(){
-
 		if($('#marca2').val() == 1){
-
 			$('#div_marca').show();
-
 			$('#otra_marca').removeClass('ignore');
-
 		}else{
-
 			$('#div_marca').hide();
-
 			$('#otra_marca').addClass('ignore');
-
 		}
-
 	});
-
 	if($('#motor').val() == 1){
-
 		$('#div_motor').show();
-
 		$('#otro_motor').removeClass('ignore');
-
 	}else{
-
 		$('#div_motor').hide();
-
 		$('#otro_motor').addClass('ignore');
-
 	}
-
 	$('#motor').change(function(){
-
 		if($('#motor').val() == 1){
-
 			$('#div_motor').show();
-
 			$('#otro_motor').removeClass('ignore');
-
 		}else{
-
 			$('#div_motor').hide();
-
 			$('#otro_motor').addClass('ignore');
-
 		}
-
 	});
-
 	if($('#transmision').val() == 1){
-
 		$('#div_transmision').show();
-
 		$('#otra_transmision').removeClass('ignore');
-
 	}else{
-
 		$('#div_transmision').hide();
-
 		$('#otra_transmision').addClass('ignore');
-
 	}
-
 	$('#transmision').change(function(){
-
 		if($('#transmision').val() == 1){
-
 			$('#div_transmision').show();
-
 			$('#otra_transmision').removeClass('ignore');
-
 		}else{
-
 			$('#div_transmision').hide();
-
 			$('#otra_transmision').addClass('ignore');
-
 		}
-
 	});
-
+    $('#eeuu').change(function(){
+        if($('#eeuu').prop('checked')){
+            $('#pais').attr('value','EEUU');
+            $('#pais').prop('disabled', true);
+            $('#telefono_local').prop('maxLength', 10);
+            $('#telefono_movil').prop('maxLength', 10);
+        }else{
+            $('#pais').attr('value','');
+            $('#pais').prop('disabled', false);
+            $('#telefono_local').prop('maxLength', 50);
+            $('#telefono_movil').prop('maxLength', 50);
+        }
+    });
 });
-
 </script>
-
 <script type="text/javascript">
-
 	$(function() {
 
 		$(".inline").colorbox({inline:true, width:"50%"});
