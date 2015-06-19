@@ -791,11 +791,11 @@ function MM_swapImage() { //v3.0
         <label for="email">Email Amigo 1ro:</label>
         <input name="email_amigo1" type="text" id="email_amigo1" placeholder="Ingrese el email de su amigo" size="43" class="required email" value="" />
         <label for="email">Email Amigo 2do:</label>
-        <input name="email_amigo2" type="text" id="email_amigo2" placeholder="Ingrese el email de su amigo" size="43" class="required email" value="" />
+        <input name="email_amigo2" type="text" id="email_amigo2" placeholder="Ingrese el email de su amigo" size="43" class="email" value="" />
         <label for="email">Email Amigo 3ro:</label>
-        <input name="email_amigo3" type="text" id="email_amigo3" placeholder="Ingrese el email de su amigo" size="43" class="required email" value="" />
+        <input name="email_amigo3" type="text" id="email_amigo3" placeholder="Ingrese el email de su amigo" size="43" class="email" value="" />
         <label for="descpart"><strong>Mensaje al amigo(s):</strong></label>
-        <textarea name="mens_amigo" id="mens_amigo" placeholder="Indique el mensaje para su amigo(s)" class="required"></textarea>
+        <textarea name="mens_amigo" id="mens_amigo" placeholder="Indique el mensaje para su amigo(s)" maxlength="140" class="required"></textarea>
         <span class="countdown"></span>
         <br>
         <input name="enviar4" id="enviar4" value="Enviar" class="submit" type="submit" />
@@ -878,6 +878,19 @@ $(function(){
 			return false;
 		}
 	});
+    $("#form4").validate({
+        submitHandler: function(form){
+            $.post("avisa_success.php", $("#form4").serialize(), function(data){
+                if(data){
+                    $('#form4').each(function(){ this.reset(); });
+                    $("#mensaje_return4").html("<span style='color:green;'>"+data+"</span>");
+                }else{
+                    alert('No se pudo enviar su solicitud');
+                }
+            });
+            return false;
+        }
+    });
 	if($('#marca2').val() == 1){
 		$('#div_marca').show();
 		$('#otra_marca').removeClass('ignore');
