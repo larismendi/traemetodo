@@ -442,7 +442,7 @@ body {
 
 					            <ul>
                                     <li><a href="rastrear-carga.html">RASTREAR CARGA</a></li>
-					            	<li><a href="rastrear-carga.html">ENVIO DESDE EEUU</a></li>
+					            	<li><a href="desde-eeuu.php">ENVIO DESDE EEUU</a></li>
 				                </ul>
 
 		              		</li>
