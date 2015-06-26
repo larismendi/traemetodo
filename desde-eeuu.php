@@ -579,7 +579,7 @@ if(isset($_POST['tipo'])){
         </div>
         <div id="code">
             <label for="codigo_registro"><strong>Ingrese su código de registro:</strong></label>
-            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="43" maxlength="40" class="required" />
+            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="43" maxlength="32" class="required" />
         </div>
         <label for="pais_destino"><strong>País de destino:</strong></label>
         <input name="pais_destino" type="text" id="pais_destino" placeholder="Ingrese el país de destino" size="43" maxlength="40" class="required" value=""/>
@@ -599,6 +599,36 @@ if(isset($_POST['tipo'])){
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
+        <label for="caja">Caja</label>
+        <div id="cajas">
+            <table>
+                <tr><td>Alto</td><td>Ancho</td><td>Largo</td><td>Peso</td></tr>
+                <tr id="caja2" style="display: none">
+                    <td><input name="alto_1" id="alto_1" value="" size="15" placeholder="Ingresa el Alto" /></td>
+                    <td><input name="ancho_1" id="ancho_1" value="" size="15" placeholder="Ingresa el Ancho" /></td>
+                    <td><input name="largo_1" id="largo_1" value="" size="15" placeholder="Ingresa el Largo" /></td>
+                    <td><input name="peso_1" id="peso_1" value="" size="15" placeholder="Ingresa el Peso" /></td>
+                </tr>
+                <tr id="caja2" style="display: none">
+                    <td><input name="alto_2" id="alto_2" value="" size="15" placeholder="Ingresa el Alto" /></td>
+                    <td><input name="ancho_2" id="ancho_2" value="" size="15" placeholder="Ingresa el Ancho" /></td>
+                    <td><input name="largo_2" id="largo_2" value="" size="15" placeholder="Ingresa el Largo" /></td>
+                    <td><input name="peso_2" id="peso_2" value="" size="15" placeholder="Ingresa el Peso" /></td>
+                </tr>
+                <tr id="caja3" style="display: none">
+                    <td><input name="alto_3" id="alto_3" value="" size="15" placeholder="Ingresa el Alto" /></td>
+                    <td><input name="ancho_3" id="ancho_3" value="" size="15" placeholder="Ingresa el Ancho" /></td>
+                    <td><input name="largo_3" id="largo_3" value="" size="15" placeholder="Ingresa el Largo" /></td>
+                    <td><input name="peso_3" id="peso_3" value="" size="15" placeholder="Ingresa el Peso" /></td>
+                </tr>
+                <tr id="caja4" style="display: none">
+                    <td><input name="alto_4" id="alto_4" value="" size="15" placeholder="Ingresa el Alto" /></td>
+                    <td><input name="ancho_4" id="ancho_4" value="" size="15" placeholder="Ingresa el Ancho" /></td>
+                    <td><input name="largo_4" id="largo_4" value="" size="15" placeholder="Ingresa el Largo" /></td>
+                    <td><input name="peso_4" id="peso_4" value="" size="15" placeholder="Ingresa el Peso" /></td>
+                </tr>
+            </table>
+        </div>
         <label for="valor"><strong>Valor del contenido en $:</strong></label>
         <input name="valor" type="text" id="valor" placeholder="Ingrese la valor del contenido" size="43" maxlength="40" class="required" value=""/>
         <label for="seguro"><strong>Quiere asegurar su carga:</strong></label>
@@ -623,6 +653,7 @@ if(isset($_POST['tipo'])){
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript">
     $(function () {
+        $('').change();
         function updateCountdown() {
             // 140 is the max message length
             var remaining = 140 - $('#descripcion').val().length;
