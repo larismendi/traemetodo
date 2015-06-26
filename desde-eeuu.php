@@ -4,6 +4,15 @@
  * Date: 18/06/2015
  * Time: 08:23 PM
  */
+
+if(isset($_POST['tipo'])){
+    require_once("webapp/clases/database/database.class.php");
+    require_once("webapp/web/clases/registros.class.php");
+    $obj =new Registros();
+    $res = $obj->dato_code($_POST['code']);
+    echo json_encode($res);
+    die;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -275,6 +284,7 @@
             color: #333333;
             font-weight: bold;
         }
+        #code { display: none; }
         -->
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -334,31 +344,22 @@
         <td align="center" valign="middle" bgcolor="#FFFFFF">
             <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                    <td width="380"><a href="index.php" target="_top"
-                                       onMouseOver="MM_swapImage('logo','','img/Logohov.fw.png',1)"
-                                       onMouseOut="MM_swapImgRestore()"><img src="img/Logo.png" alt="logo traemetodo"
-                                                                             name="logo" width="408" height="94"
-                                                                             border="0" id="logo"></a></td>
+                    <td width="380">
+                        <a href="index.php" target="_top" onMouseOver="MM_swapImage('logo','','img/Logohov.fw.png',1)" onMouseOut="MM_swapImgRestore()">
+                            <img src="img/Logo.png" alt="logo traemetodo" name="logo" width="408" height="94" border="0" id="logo">
+                        </a>
+                    </td>
                     <td width="580" align="right" valign="middle">
                         <table width="549" border="0" align="center" cellpadding="0" cellspacing="6">
                             <tr>
                                 <td width="110" align="right" bgcolor="#FFFFFF">&nbsp;</td>
                                 <td width="244" align="right" bgcolor="#FFFFFF"><span class="Estilo12">Síguenos también en</span>:
                                 </td>
-                                <td width="53" align="right" bgcolor="#FFFFFF"><a href="https://twitter.com/TRAEMETODO"
-                                                                                  target="_blank"><img src="img/tw.png"
-                                                                                                       alt="twitter-traemetodo"
-                                                                                                       width="53"
-                                                                                                       height="53"
-                                                                                                       border="0"></a>
+                                <td width="53" align="right" bgcolor="#FFFFFF">
+                                    <a href="https://twitter.com/TRAEMETODO" target="_blank"><img src="img/tw.png" alt="twitter-traemetodo" width="53" height="53" border="0"></a>
                                 </td>
-                                <td width="53" align="right" bgcolor="#FFFFFF"><a
-                                        href="https://www.facebook.com/traemetodo?fref=ts" target="_blank"><img
-                                            src="img/fb.png" alt="facebook-traemetodo" width="53" height="53"
-                                            border="0"></a></td>
-                                <td width="53" align="right" bgcolor="#FFFFFF"><a
-                                        href="https://instagram.com/traemetodo" target="_blank"><img
-                                            src="img/IST.fw.png" alt="instagram-traemetodo" width="53" height="53"></a>
+                                <td width="53" align="right" bgcolor="#FFFFFF"><a href="https://www.facebook.com/traemetodo?fref=ts" target="_blank"><img src="img/fb.png" alt="facebook-traemetodo" width="53" height="53" border="0"></a></td>
+                                <td width="53" align="right" bgcolor="#FFFFFF"><a href="https://instagram.com/traemetodo" target="_blank"><img src="img/IST.fw.png" alt="instagram-traemetodo" width="53" height="53"></a>
                                 </td>
                             </tr>
                         </table>
@@ -416,25 +417,7 @@
             <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr bgcolor="#FFFFFF">
                     <td align="center" valign="top">
-                        <ul id="MenuBar1" class="MenuBarHorizontal">
-                            <li><a href="index.php">HOME</a></li>
-                            <li><a href="servicios.html">SERVICIOS</a></li>
-                            <li><a href="#" class="MenuBarItemSubmenu">QUE VENDEMOS</a>
-                                <ul>
-                                    <li><a href="compras-por-internet.php">COMPRAS POR INTERNET</a></li>
-                                    <li><a href="repuestos-para-autos.php">REPUESTOS PARA AUTOS</a></li>
-                                    <li><a href="repuestos-para-yates.php">REPUESTOS YATES / LANCHAS</a></li>
-                                    <li><a href="equipos-electronicos.php">EQUIPOS ELECTR&Oacute;NICOS</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="enviar.php" class="MenuBarItemSubmenu">COMO ENVIAR</a>
-                                <ul>
-                                    <li><a href="rastrear-carga.html">RASTREAR CARGA</a></li>
-                                    <li><a href="desde-eeuu.php">ENVIO DESDE EEUU</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="contacto.php">CONTACTO</a></li>
-                        </ul>
+                        <?php include_once('includes/menu.php'); ?>
                     </td>
                 </tr>
                 <tr bgcolor="#FFFFFF"></tr>
@@ -595,8 +578,8 @@
             <input name="cliente" type="radio" value="0"/> No
         </div>
         <div id="code">
-            <label for="codigo"><strong>Ingrese su código de registro:</strong></label>
-            <input name="codigo" id="codigo" placeholder="Ingrese código de registro" class="required" />
+            <label for="codigo_registro"><strong>Ingrese su código de registro:</strong></label>
+            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="43" maxlength="40" class="required" />
         </div>
         <label for="pais_destino"><strong>País de destino:</strong></label>
         <input name="pais_destino" type="text" id="pais_destino" placeholder="Ingrese el país de destino" size="43" maxlength="40" class="required" value=""/>
@@ -616,6 +599,17 @@
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
+        <label for="valor"><strong>Valor del contenido en $:</strong></label>
+        <input name="valor" type="text" id="valor" placeholder="Ingrese la valor del contenido" size="43" maxlength="40" class="required" value=""/>
+        <label for="seguro"><strong>Quiere asegurar su carga:</strong></label>
+        <select name="seguro" id="seguro" class="required">
+            <option value="">Seleccione la cantidad de cajas</option>
+            <option value="Si">Si</option>
+            <option value="No">No</option>
+        </select>
+        <label for="descripcion"><strong>Descripción del Contenido de la carga:</strong></label>
+        <textarea name="descripcion" id="descripcion" placeholder="Indique el mensaje para su amigo(s)" maxlength="140" class="required"></textarea>
+        <span class="countdown" style="color:black"></span>
         <br>
         <input id="enviar" value="Enviar" class="submit" type="submit" name="enviar"/>
         <div id="mensaje_return">PRESIONE ENVIAR PARA REALIZAR SU SOLICITUD.</div>
@@ -629,6 +623,28 @@
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript">
     $(function () {
+        function updateCountdown() {
+            // 140 is the max message length
+            var remaining = 140 - $('#descripcion').val().length;
+            //if(remaining < 0){
+            //$('.countdown').css('color':'red');
+            //}else{$('.countdown').css('color':'black');}
+            $('.countdown').text(remaining + ' Caracteres.');
+        }
+        updateCountdown();
+        $('#descripcion').change(updateCountdown);
+        $('#descripcion').keyup(updateCountdown);
+        $('#codigo_registro').blur(function(){
+            if($('#pais_destino').val() == '' || $('#ciudad_destino').val() == ''){
+                $.post('desde-eeuu.php', { tipo: 'desde-eeuu', code: $(this).val() }, function(data){
+                    var nu = $.parseJSON(data);
+                    if($('#pais_destino').val() == '')
+                        $('#pais_destino').val(nu.pais);
+                    if($('#ciudad_destino').val() == '')
+                        $('#ciudad_destino').val(nu.ciudad);
+                });
+            }
+        });
         $(".inline").colorbox({inline: true, width: "50%"});
         $('#form1').validate({
             rules: {
@@ -649,6 +665,22 @@
                     }
                 });
                 return false;
+            }
+        });
+        if($('input[name=cliente]:checked').val() == 1){
+            $('#code').show();
+            $('#codigo_registro').removeClass('ignore');
+        }else{
+            $('#code').hide();
+            $('#codigo_registro').addClass('ignore');
+        }
+        $('input[name=cliente]').change(function(){
+            if($(this).val() == 1){
+                $('#code').show();
+                $('#codigo_registro').removeClass('ignore');
+            }else{
+                $('#code').hide();
+                $('#codigo_registro').addClass('ignore');
             }
         });
         $("#fechapago").datepicker();

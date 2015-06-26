@@ -130,7 +130,21 @@ class Registros{
 			}
 		}
 	}
-	
+	function dato_code($code){
+        if($this->con->connect()==true){
+            $query = "SELECT * FROM registros WHERE num_registro='".$code."'";
+            $result = $this->con->query($query);
+            $result = $this->con->fetch_array($result);
+            $this->con->close();
+            if($result){
+                $this->output = array('nombre' => $result['nombre'], 'email' => $result['email'], 'pais' => $result['pais'], 'ciudad' => $result['ciudad']);
+                return $this->output;
+            }
+            else{
+                return $this->output;
+            }
+        }
+    }
 	function valida($email){
 		if($this->con->connect()==true){
 			$query = "SELECT id_registro FROM registros WHERE email='".$email."'";
