@@ -36,9 +36,6 @@ if(isset($_POST['nombre']) && isset($_POST['email'])){
     if(empty($_POST['envio'])){
         $errores['envio'] = true;
     }
-    if(empty($_POST['cliente'])){
-        $errores['cliente'] = true;
-    }
     if(empty($_POST['pais_destino'])){
         $errores['pais_destino'] = true;
     }

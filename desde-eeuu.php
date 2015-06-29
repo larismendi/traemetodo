@@ -278,6 +278,7 @@ if(isset($_POST['tipo'])){
         .form label.error {
             color: red;
             margin: -5px 0 5px 0;
+            width: 80%;
         }
         .Estilo24 {
             font-size: 16px;
@@ -549,7 +550,7 @@ if(isset($_POST['tipo'])){
     <form name="form1" id="form1" class="form shadowed-all" style="margin:0 auto;" method="post" action="">
         <p>SOLICITUD DE PRESUPUESTO PARA ENVÍO A VENEZUELA DESDE CUALQUIER CIUDAD DE LOS EEUU..</p>
         <label for="nombre"><strong>Nombre y Apellido:</strong></label>
-        <input name="nombre" type="text" id="nombre" placeholder="ingrese su nombre" size="43" maxlength="100" class="required" value=""/>
+        <input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre" size="43" maxlength="100" class="required" value=""/>
         <label for="email"><strong>Email Cliente:</strong></label>
         <input name="email" type="text" id="email" placeholder="Ingrese su email" size="43" maxlength="200" class="required email" value=""/>
         <label for="email">Repite Email:</label>
@@ -575,11 +576,11 @@ if(isset($_POST['tipo'])){
         <label for="cliente"><strong>Cliente registrado?</strong></label>
         <div style="width: 15%; clear: both">
             <input name="cliente" type="radio" value="1"/> Si
-            <input name="cliente" type="radio" value="0"/> No
+            <input name="cliente" type="radio" value="0" checked/> No
         </div>
         <div id="code">
             <label for="codigo_registro"><strong>Ingrese su código de registro:</strong></label>
-            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="43" maxlength="32" class="required" />
+            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="30" maxlength="30" class="required" />
         </div>
         <label for="pais_destino"><strong>País de destino:</strong></label>
         <input name="pais_destino" type="text" id="pais_destino" placeholder="Ingrese el país de destino" size="43" maxlength="40" class="required" value=""/>

@@ -177,39 +177,39 @@ $(function () {
         // valido el campo de tipo de envio
         if($('#envio').valid()){
             if($(this).val() == ''){
-                $('#cajas').find('[id^="caja"]').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 1){
-                $('#cajas').find('[id^="caja"]:lt(1)').show();
-                $('#cajas').find('[id^="caja"]:gt(-10)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(1)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-10)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 2){
-                $('#cajas').find('[id^="caja"]:lt(2)').show();
-                $('#cajas').find('[id^="caja"]:gt(-9)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(2)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-9)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 3){
-                $('#cajas').find('[id^="caja"]:lt(3)').show();
-                $('#cajas').find('[id^="caja"]:gt(-8)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(3)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-8)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 4){
-                $('#cajas').find('[id^="caja"]:lt(4)').show();
-                $('#cajas').find('[id^="caja"]:gt(-7)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(4)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-7)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 5){
-                $('#cajas').find('[id^="caja"]:lt(5)').show();
-                $('#cajas').find('[id^="caja"]:gt(-6)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(5)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-6)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 6){
-                $('#cajas').find('[id^="caja"]:lt(6)').show();
-                $('#cajas').find('[id^="caja"]:gt(-5)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(6)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-5)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 7){
-                $('#cajas').find('[id^="caja"]:lt(7)').show();
-                $('#cajas').find('[id^="caja"]:gt(-6)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(7)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-6)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 8){
-                $('#cajas').find('[id^="caja"]:lt(8)').show().find('input:text').addClass('');
-                $('#cajas').find('[id^="caja"]:gt(-7)').hide().find('input:text').val('');
+                $('#cajas').find('[id^="caja"]:lt(8)').show().find('input:text').removeClass('ignore');
+                $('#cajas').find('[id^="caja"]:gt(-7)').hide().find('input:text').val('').addClass('ignore');
             }
             if($(this).val() == 9){
                 $('#cajas').find('[id^="caja"]:lt(9)').show();
