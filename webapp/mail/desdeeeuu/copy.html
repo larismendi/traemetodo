@@ -221,27 +221,30 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 					<table>
 						<tr>
 							<td>
-								<h3>Hola {nombre},</h3>
-								<p style="font-size:17px;">Has enviado a http://www.traemetodo.com los siguientes datos de solicitud de env&iacute;o desde {pais} a {pais_destino}:</p>
+								<h3>Hola Solicitud Cotizaci&oacute;n de envios desde {pais} a {pais_destino},</h3>
+								<p style="font-size:17px;">Has recibido desde http://www.traemetodo.com los siguientes datos a continuaci&oacute;n:</p>
 
 								<!-- Content Panel -->
-								<p style="padding:15px; background-color:#ECF8FF; margin-bottom: 15px;">
-									NOMBRE Y APELLIDO: {nombre}
-									<br>EMAIL: {email}
-									<br>N&Uacute;MERO TELEF&Oacute;NICO: {telef}
-									<br>CALLE: {calle}
-									<br>CIUDAD: {ciudad}
-									<br>ESTADO: {estado}
-									<br>CODIGO POSTAL: {codigo}
-									<br>PAIS: {pais}
-									<br>MODALIDAD DE ENV&Iacute;O: {envio}
-									<br>CLIENTE REGISTRADO: {cliente}{codigo_registro}
-									<br>Pa&Iacute;S DESTINO: {pais_destino}
+                                <p style="padding:15px; background-color:#ECF8FF; margin-bottom: 15px;">
+                                    NOMBRE Y APELLIDO: {nombre}
+                                    <br>EMAIL: {email}
+                                    <br>TEL&Eacute;FONO: {telef}
+                                    <br>CALLE: {calle}
+                                    <br>CIUDAD: {ciudad}
+                                    <br>ESTADO: {estado}
+                                    <br>CODIGO POSTAL: {codigo}
+                                    <br>PAIS: {pais}
+                                    <br>MODALIDAD DE ENV&Iacute;O: {envio}
+                                    <br>CLIENTE REGISTRADO?: {cliente}{codigo_registro}
+                                    <br>PAIS DE DESTINO: {pais_destino}
                                     <br>CIUDAD DESTINO: {ciudad_destino}
-                                    <br>CANTIDAD DE CAJAS: {pais_destino}
-                                    <br>Pa&Iacute;S DESTINO: {pais_destino}
-                                    <br>Pa&Iacute;S DESTINO: {pais_destino}
-								</p>
+                                    <br>CANTIDAD DE CAJAS: {cantidad_caja}
+                                    <br>{tt}
+                                    <br>Casilla de totalizaci&oacute;n autom&aacute;tica de peso: {total}
+                                    <br>Valor del contenido en $: {valor}
+                                    <br>Quiere asegurar su carga: {seguro}
+                                    <br>Descripción del contenido de la carga: {descripcion}
+                                </p>
 								<!-- /Content Panel -->
 
 								<!-- Callout Panel -->

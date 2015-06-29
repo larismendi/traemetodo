@@ -28,9 +28,9 @@ h2{
     top: 100px;
     text-align: center;
 }
-    #divLogo{
-        padding-bottom: 20px;
-    }
+#divLogo{
+    padding-bottom: 20px;
+}
  
 /* estilos del overlay */
 #divOverlay{
@@ -54,11 +54,11 @@ h2{
     box-shadow: 0 0 10px #f1f1f1;
     border: solid 1px #000;
 }
-    .clsBoton:hover{
-        background: #fff;
-        color: #000;
-        border-color: #000;
-    }
+.clsBoton:hover{
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
  
 /* clases relacionadas con la ventana modal */
 .clsVentana{
@@ -76,40 +76,40 @@ h2{
     z-index: 99999;
     display: none;
 }
-    .clsVentanaTitulo{
-        background: #222;
-        color: #fff;
-        border-radius: 3px 3px 0 0;
-        display: block;
-    }
-        .clsVentanaTitulo strong{
-            display: inline-block;
-            padding: 10px;
-        }
-        .clsVentanaTitulo a{
-            float: right;
-            display: inline-block;
-            color: #fff;
-            text-decoration: none;
-            background: #000;
-            padding: 5px;
-            margin: 5px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-            .clsVentanaTitulo a:hover{
-                background: #fff;
-                color: #000;
-            }
-    .clsVentanaContenido{
-        padding: 10px;
-        height: 446px;
-        overflow: auto;
-        border-radius: 0 0 3px 3px;
-    }
-        .clsVentanaContenido iframe{
-            width: 575px;
-            height: 440px;
-            border-radius: 3px;
-            border: solid 1px #f1f1f1;
-        }
+.clsVentanaTitulo{
+    background: #222;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    display: block;
+}
+.clsVentanaTitulo strong{
+    display: inline-block;
+    padding: 10px;
+}
+.clsVentanaTitulo a{
+    float: right;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #000;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.clsVentanaTitulo a:hover{
+    background: #fff;
+    color: #000;
+}
+.clsVentanaContenido{
+    padding: 10px;
+    height: 446px;
+    overflow: auto;
+    border-radius: 0 0 3px 3px;
+}
+.clsVentanaContenido iframe{
+    width: 575px;
+    height: 440px;
+    border-radius: 3px;
+    border: solid 1px #f1f1f1;
+}

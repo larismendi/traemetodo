@@ -585,7 +585,7 @@ if(isset($_POST['tipo'])){
         <input name="pais_destino" type="text" id="pais_destino" placeholder="Ingrese el país de destino" size="43" maxlength="40" class="required" value=""/>
         <label for="ciudad_destino"><strong>Ciudad de destino:</strong></label>
         <input name="ciudad_destino" type="text" id="ciudad_destino" placeholder="Ingrese la ciudad de destino" size="43" maxlength="40" class="required" value=""/>
-        <label for="cantidad_caja"><strong>Cantidad de caja:</strong></label>
+        <label for="cantidad_caja"><strong>Cantidad de cajas:</strong></label>
         <select name="cantidad_caja" id="cantidad_caja" class="required">
             <option value="">Seleccione la cantidad de cajas</option>
             <option value="1">1</option>
@@ -599,41 +599,79 @@ if(isset($_POST['tipo'])){
             <option value="9">9</option>
             <option value="10">10</option>
         </select>
-        <label for="caja">Caja</label>
+        <label for="caja">Caja: Expresa decimales con un punto (.)</label>
         <div id="cajas">
-            <table>
-                <tr><td>Alto</td><td>Ancho</td><td>Largo</td><td>Peso</td></tr>
-                <tr id="caja2" style="display: none">
-                    <td><input name="alto_1" id="alto_1" value="" size="15" placeholder="Ingresa el Alto" /></td>
-                    <td><input name="ancho_1" id="ancho_1" value="" size="15" placeholder="Ingresa el Ancho" /></td>
-                    <td><input name="largo_1" id="largo_1" value="" size="15" placeholder="Ingresa el Largo" /></td>
-                    <td><input name="peso_1" id="peso_1" value="" size="15" placeholder="Ingresa el Peso" /></td>
-                </tr>
-                <tr id="caja2" style="display: none">
-                    <td><input name="alto_2" id="alto_2" value="" size="15" placeholder="Ingresa el Alto" /></td>
-                    <td><input name="ancho_2" id="ancho_2" value="" size="15" placeholder="Ingresa el Ancho" /></td>
-                    <td><input name="largo_2" id="largo_2" value="" size="15" placeholder="Ingresa el Largo" /></td>
-                    <td><input name="peso_2" id="peso_2" value="" size="15" placeholder="Ingresa el Peso" /></td>
-                </tr>
-                <tr id="caja3" style="display: none">
-                    <td><input name="alto_3" id="alto_3" value="" size="15" placeholder="Ingresa el Alto" /></td>
-                    <td><input name="ancho_3" id="ancho_3" value="" size="15" placeholder="Ingresa el Ancho" /></td>
-                    <td><input name="largo_3" id="largo_3" value="" size="15" placeholder="Ingresa el Largo" /></td>
-                    <td><input name="peso_3" id="peso_3" value="" size="15" placeholder="Ingresa el Peso" /></td>
-                </tr>
-                <tr id="caja4" style="display: none">
-                    <td><input name="alto_4" id="alto_4" value="" size="15" placeholder="Ingresa el Alto" /></td>
-                    <td><input name="ancho_4" id="ancho_4" value="" size="15" placeholder="Ingresa el Ancho" /></td>
-                    <td><input name="largo_4" id="largo_4" value="" size="15" placeholder="Ingresa el Largo" /></td>
-                    <td><input name="peso_4" id="peso_4" value="" size="15" placeholder="Ingresa el Peso" /></td>
-                </tr>
-            </table>
+            <ul>
+                <li>Alto(in)</li><li>Ancho (in)</li><li>Largo (in)</li><li>Peso (lb)</li>
+            </ul>
+            <ul id="caja1" style="display: none">
+                <li><input name="alto_1" id="alto_1" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_1" id="ancho_1" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_1" id="largo_1" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_1" id="peso_1" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja2" style="display: none">
+                <li><input name="alto_2" id="alto_2" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_2" id="ancho_2" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_2" id="largo_2" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_2" id="peso_2" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja3" style="display: none">
+                <li><input name="alto_3" id="alto_3" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_3" id="ancho_3" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_3" id="largo_3" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_3" id="peso_3" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja4" style="display: none">
+                <li><input name="alto_4" id="alto_4" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_4" id="ancho_4" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_4" id="largo_4" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_4" id="peso_4" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja5" style="display: none">
+                <li><input name="alto_5" id="alto_5" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_5" id="ancho_5" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_5" id="largo_5" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_5" id="peso_5" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja6" style="display: none">
+                <li><input name="alto_6" id="alto_6" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_6" id="ancho_6" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_6" id="largo_6" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_6" id="peso_6" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja7" style="display: none">
+                <li><input name="alto_7" id="alto_7" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_7" id="ancho_7" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_7" id="largo_7" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_7" id="peso_7" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja8" style="display: none">
+                <li><input name="alto_8" id="alto_8" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_8" id="ancho_8" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_8" id="largo_8" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_8" id="peso_8" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja9" style="display: none">
+                <li><input name="alto_9" id="alto_9" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_9" id="ancho_9" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_9" id="largo_9" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_9" id="peso_9" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
+            <ul id="caja10" style="display: none">
+                <li><input name="alto_10" id="alto_10" class="required number ignore" value="" size="15" placeholder="Ingresa el Alto" /></li>
+                <li><input name="ancho_10" id="ancho_10" class="required number ignore" value="" size="15" placeholder="Ingresa el Ancho" /></li>
+                <li><input name="largo_10" id="largo_10" class="required number ignore" value="" size="15" placeholder="Ingresa el Largo" /></li>
+                <li><input name="peso_10" id="peso_10" class="required number ignore" value="" size="15" placeholder="Ingresa el Peso" /></li>
+            </ul>
         </div>
+        <label for="total"><strong>Casilla de totalización automática de peso:</strong></label>
+        <input name="total" type="text" id="total" placeholder="Totalización de peso total" size="43" maxlength="40" class="required" readonly value=""/><input type="button" id="calc" value="Calcular" />
         <label for="valor"><strong>Valor del contenido en $:</strong></label>
         <input name="valor" type="text" id="valor" placeholder="Ingrese la valor del contenido" size="43" maxlength="40" class="required" value=""/>
         <label for="seguro"><strong>Quiere asegurar su carga:</strong></label>
         <select name="seguro" id="seguro" class="required">
-            <option value="">Seleccione la cantidad de cajas</option>
+            <option value="">Seleccione</option>
             <option value="Si">Si</option>
             <option value="No">No</option>
         </select>
@@ -651,9 +689,9 @@ if(isset($_POST['tipo'])){
 <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/desde-eeuu.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('').change();
         function updateCountdown() {
             // 140 is the max message length
             var remaining = 140 - $('#descripcion').val().length;
@@ -685,7 +723,7 @@ if(isset($_POST['tipo'])){
             },
             ignore: ".ignore",
             submitHandler: function (form) {
-                $.post("enviar_success.php", $("#form1").serialize(), function (data) {
+                $.post("desdeeeuu_success.php", $("#form1").serialize(), function (data) {
                     if (data) {
                         $('#form1').each(function () {
                             this.reset();
@@ -703,7 +741,7 @@ if(isset($_POST['tipo'])){
             $('#codigo_registro').removeClass('ignore');
         }else{
             $('#code').hide();
-            $('#codigo_registro').addClass('ignore');
+            $('#codigo_registro').addClass('ignore').val("");
         }
         $('input[name=cliente]').change(function(){
             if($(this).val() == 1){
@@ -711,10 +749,9 @@ if(isset($_POST['tipo'])){
                 $('#codigo_registro').removeClass('ignore');
             }else{
                 $('#code').hide();
-                $('#codigo_registro').addClass('ignore');
+                $('#codigo_registro').addClass('ignore').val("");
             }
         });
-        $("#fechapago").datepicker();
     });
 </script>
 <script type="text/javascript">
