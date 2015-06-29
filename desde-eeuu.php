@@ -547,9 +547,9 @@ if(isset($_POST['tipo'])){
 <div bgcolor="#FFC929" style="display:none">
     <p>&nbsp;</p>
     <form name="form1" id="form1" class="form shadowed-all" style="margin:0 auto;" method="post" action="">
-        <p>SOLICITUD DE PRESUPUESTO PARA ENVÍO A VENEZUELA DESDE CUALQUIER CIUDAD DE LOS EEUU..</p>
+        <p>SOLICITUD DE PRESUPUESTO PARA ENVÍO A VENEZUELA DESDE CUALQUIER CIUDAD DE LOS EEUU.</p>
         <label for="nombre"><strong>Nombre y Apellido:</strong></label>
-        <input name="nombre" type="text" id="nombre" placeholder="ingrese su nombre" size="43" maxlength="100" class="required" value=""/>
+        <input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre" size="43" maxlength="100" class="required" value=""/>
         <label for="email"><strong>Email Cliente:</strong></label>
         <input name="email" type="text" id="email" placeholder="Ingrese su email" size="43" maxlength="200" class="required email" value=""/>
         <label for="email">Repite Email:</label>
@@ -574,8 +574,8 @@ if(isset($_POST['tipo'])){
         </select>
         <label for="cliente"><strong>Cliente registrado?</strong></label>
         <div style="width: 15%; clear: both">
-            <input name="cliente" type="radio" value="1"/> Si
-            <input name="cliente" type="radio" value="0"/> No
+            <input name="cliente" type="radio" value="1" /> Si
+            <input name="cliente" type="radio" value="0" checked /> No
         </div>
         <div id="code">
             <label for="codigo_registro"><strong>Ingrese su código de registro:</strong></label>
@@ -725,12 +725,12 @@ if(isset($_POST['tipo'])){
             submitHandler: function (form) {
                 $.post("desdeeeuu_success.php", $("#form1").serialize(), function (data) {
                     if (data) {
+                        $("#mensaje_return").html("<span style='color:red;'>" + data + "</span>");
+                    } else {
                         $('#form1').each(function () {
                             this.reset();
                         });
-                        $("#mensaje_return").html("<span style='color:green;'>" + data + "</span>");
-                    } else {
-                        alert('No se pudo enviar su solicitud');
+                        $("#mensaje_return").html("<span style='color:green;'>Se envío satisfactoriamente su información.</span>");
                     }
                 });
                 return false;

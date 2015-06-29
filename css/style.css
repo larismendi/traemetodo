@@ -116,3 +116,4 @@
 #cajas { clear: both; margin-bottom: 10px; min-height: 25px; }
 #cajas ul { margin: 0; padding: 0; list-style-type: none; width: 100%; }
 #cajas ul li { width: 25%; display: inline; float: left; }
+#cajas ul li input { width: 100%; }
