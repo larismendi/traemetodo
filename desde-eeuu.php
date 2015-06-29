@@ -723,6 +723,7 @@ if(isset($_POST['tipo'])){
             },
             ignore: ".ignore",
             submitHandler: function (form) {
+                $("#mensaje_return").html("<img name='loading' src='images/loading.gif' /><br>Enviando...");
                 $.post("desdeeeuu_success.php", $("#form1").serialize(), function (data) {
                     if (data) {
                         $("#mensaje_return").html("<span style='color:red;'>" + data + "</span>");
