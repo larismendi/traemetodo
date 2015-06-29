@@ -9,7 +9,7 @@ $(function () {
         if($('#envio').valid() && $('#cantidad_caja').valid()){
             total = parseFloat(ca1) + parseFloat(ca2) + parseFloat(ca3) + parseFloat(ca4) + parseFloat(ca5) + parseFloat(ca6) +
             parseFloat(ca7) + parseFloat(ca8) + parseFloat(ca9) + parseFloat(ca10);
-            $('#total').val(total.toFixed(2));
+            $('#total').val(total.toFixed(0));
         }
     });
 
