@@ -251,11 +251,14 @@ if(isset($_POST['tipo'])){
             font-size: 1em;
         }
         .form input[type=text] {
-            width: 220px;
+            width: 45%;
+        }
+        .form select {
+            width: 45%;
         }
         .form textarea {
             height: 130px;
-            width: 405px;
+            width: 70%;
         }
         .form input:hover, .form textarea:hover {
             background: none repeat scroll 0 0 #888888;
@@ -546,7 +549,7 @@ if(isset($_POST['tipo'])){
 </table>
 <div bgcolor="#FFC929" style="display:none">
     <p>&nbsp;</p>
-    <form name="form1" id="form1" class="form shadowed-all" style="margin:0 auto;" method="post" action="">
+    <form name="form1" id="form1" class="form shadowed-all" style="margin:0 auto; width: 90%;" method="post" action="">
         <p>SOLICITUD DE PRESUPUESTO PARA ENVÍO A VENEZUELA DESDE CUALQUIER CIUDAD DE LOS EEUU.</p>
         <label for="nombre"><strong>Nombre y Apellido:</strong></label>
         <input name="nombre" type="text" id="nombre" placeholder="Ingrese su nombre" size="43" maxlength="100" class="required" value=""/>
