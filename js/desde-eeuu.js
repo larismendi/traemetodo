@@ -9,12 +9,15 @@ $(function () {
         if($('#envio').valid() && $('#cantidad_caja').valid()){
             total = parseFloat(ca1) + parseFloat(ca2) + parseFloat(ca3) + parseFloat(ca4) + parseFloat(ca5) + parseFloat(ca6) +
             parseFloat(ca7) + parseFloat(ca8) + parseFloat(ca9) + parseFloat(ca10);
+            calc = 1;
 
-            if(total.toFixed(0) > total.toFixed(2)){
-                
+            if(total % 1 === 0){
+                calc = parseFloat(total);
+            }else{
+                calc = parseFloat(calc) + parseFloat(total);
             }
 
-            $('#total').val( ()?total.toFixed(0):(total.toFixed(0) + (+parseFloat(1).toFixed(0))) );
+            $('#total').val( calc.toFixed(0) );
         }
     });
 
