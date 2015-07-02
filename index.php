@@ -127,12 +127,12 @@ function MM_swapImage() { //v3.0
                   <td><img src="equipos-electronicos/spacer.gif" alt="" name="undefined_4" width="1" height="1" id="undefined_4" /></td>
                 </tr>
                 <tr>
-                  <td colspan="7" valign="top"><a href="enviar.php" target="_self" onMouseOver="MM_swapImage('equipos','','equipos-electronicos/equipos-electronicos_2.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="equipos-electronicos/equipos-electronicos_r1_c1.jpg" alt="enviar.php" name="equipos" width="351" height="287" border="0" id="equipos" /></a></td>
+                  <td colspan="7" valign="top"><a href="desde-eeuu.php" target="_self" onMouseOver="MM_swapImage('equipos','','equipos-electronicos/equipos-electronicos_2.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="equipos-electronicos/equipos-electronicos_r1_c1.jpg" alt="envios de carga aerea y maritima" name="equipos" width="351" height="287" border="0" id="equipos" /></a></td>
                   <td><img src="equipos-electronicos/spacer.gif" alt="" name="undefined_4" width="1" height="287" id="undefined_4" /></td>
                 </tr>
                 <tr>
                   <td rowspan="2" colspan="2"><img src="equipos-electronicos/equipos-electronicos_r2_c1.jpg" alt="" name="equiposelectronicos_r2_c1" width="44" height="38" border="0" id="equiposelectronicos_r2_c1" /></td>
-                  <td colspan="3"><div align="center"><a href="enviar.php" class="boton" target="_self"><span class="Estilo4">ENVÍOS DE CARGA AÉREA Y MARÍTIMA</span></a></div></td>
+                  <td colspan="3"><div align="center"><a href="desde-eeuu.php" title="envios de carga aerea y maritima" target="_self" class="boton"><span class="Estilo4">ENVÍOS DE CARGA AÉREA Y MARÍTIMA</span></a></div></td>
                   <td rowspan="2" colspan="2"><img src="equipos-electronicos/equipos-electronicos_r2_c6.jpg" alt="" name="equiposelectronicos_r2_c6" width="53" height="38" border="0" id="equiposelectronicos_r2_c6" /></td>
                   <td><img src="equipos-electronicos/spacer.gif" alt="" name="undefined_4" width="1" height="30" id="undefined_4" /></td>
                 </tr>
@@ -236,7 +236,14 @@ function MM_swapImage() { //v3.0
                                               <td colspan="8" rowspan="4" valign="middle" background="sections/text1.jpg"><table width="282" height="20" border="0" align="right" cellpadding="0" cellspacing="0">
                                                 <tbody>
                                                   <tr>
-                                                    <td><p align="justify" class="Estilo10">ENVÍA TUS PAQUETES o equipaje desde cualquier lugar de los EEUU y desde la comodidad de tu ciudad o casa.</p></td>
+                                                    <td><p align="justify" class="Estilo6"><strong>ENVÍOS DESDE CUALQUIER CIUDAD 
+                                                    DE LOS EEUU</strong></p></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td><span class="Estilo10">Envía tus paquetes  o equipajes desde cualquier lugar de los EEUU y desde la comodidad de tu ciudad o casa.</span></td>
                                                   </tr>
                                                 </tbody>
                                               </table>                                              </td>
