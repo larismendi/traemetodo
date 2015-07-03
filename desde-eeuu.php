@@ -582,7 +582,7 @@ if(isset($_POST['tipo'])){
         </div>
         <div id="code">
             <label for="codigo_registro"><strong>Ingrese su código de registro:</strong></label>
-            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="43" maxlength="32" class="required" />
+            <input name="codigo_registro" id="codigo_registro" placeholder="Ingrese código de registro" size="32" maxlength="32" class="required" />
         </div>
         <label for="pais_destino"><strong>País de destino:</strong></label>
         <input name="pais_destino" type="text" id="pais_destino" placeholder="Ingrese el país de destino" size="43" maxlength="40" class="required" value=""/>

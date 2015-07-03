@@ -21,6 +21,7 @@ $(document).ready(function(){
           <th>Nombres</th>
           <th>Email</th>
           <th>Teléfono</th>
+          <th>Cliente</th>
           <th>Origen</th>
           <th>Destino</th>
           <th>Numero de cajas</th>
@@ -38,19 +39,20 @@ if($consultas->numTotalPaginas) {
 	foreach( $consultas->fetchTodo() as $consulta ):
 ?>	
       <tr id="fila-<?=$consulta['id_desdeeeuu']?>" class="somb">
-      	<td><b><?=$consulta['id_desdeeeuu']?></b></td>
-        <td><?=strtoupper($consulta['nombre'])?></td>
-        <td><?=($consulta['email'])?></td>
-        <td><?=strtoupper($consulta['telef'])?></td>
-        <td><?=strtoupper($consulta['pais'].' - '.$consulta['estado'].' - '.$consulta['ciudad'].' - '.$consulta['calle'])?></td>
-        <td><?=strtoupper($consulta['pais_destino'].' - '.$consulta['ciudad_destino'])?></td>
-        <td><?=strtoupper($consulta['cantidad_caja'])?></td>
-        <td><?=strtoupper($consulta['total'])?></td>
-        <td><?=strtoupper($consulta['valor'])?></td>
-        <td><?=strtoupper($consulta['seguro'])?></td>
-        <td><?=$consulta['descripcion'] ?></td>
-        <td><?=$consulta['date_add'] ?></td>
-        <td></td>
+          <td><b><?=$consulta['id_desdeeeuu']?></b></td>
+          <td><?=strtoupper($consulta['nombre'])?></td>
+          <td><?=($consulta['email'])?></td>
+          <td><?=strtoupper($consulta['telef'])?></td>
+          <td><?=$consulta['cliente']?'Si - '.$consulta['codigo_registro']:'No'?></td>
+          <td><?=strtoupper($consulta['pais'].'('.$consulta['codigo'].') - '.$consulta['estado'].' - '.$consulta['ciudad'].' - '.$consulta['calle'])?></td>
+          <td><?=strtoupper($consulta['pais_destino'].' - '.$consulta['ciudad_destino'])?></td>
+          <td><?=strtoupper($consulta['cantidad_caja'])?></td>
+          <td><?=strtoupper($consulta['total'])?></td>
+          <td><?=strtoupper($consulta['valor'])?></td>
+          <td><?=strtoupper($consulta['seguro'])?></td>
+          <td><?=$consulta['descripcion'] ?></td>
+          <td><?=$consulta['date_add'] ?></td>
+          <td></td>
       </tr>
 	<?php
 	endforeach;
@@ -58,7 +60,7 @@ if($consultas->numTotalPaginas) {
   </tbody>
   <tfoot>
       <tr>
-        <td colspan="13" align="center">
+        <td colspan="14" align="center">
           <div id="paginador">
             <div align="left" style="width:100%;">Mostrando: <?=$consultas->numRegistrosMostrados()?> registros, del <?=$consultas->numPrimerRegistro()?> al <?=$consultas->numUltimoRegistro()?> de un total de: <?=$consultas->numTotalRegistros()?></div><br />
             <div style="width:100%;"><?=$consultas->fetchNavegacion()?></div>
