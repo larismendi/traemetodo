@@ -16,7 +16,7 @@ header("Pragma: no-cache");
 header("Content-Disposition: attachment; filename=registrosautos_traemetodo.csv");
 
 
-echo utf8_decode('Nombres;Email;Teléfono;Marca;Modelo;Año;Motor;Transmisión;VIN;Número de partes;Descripción de partes;Fecha creación')."\n";
+echo utf8_decode('Nombres;Email;Teléfono;Pais;Estado;Ciudad;Calle;Motor;Transmisión;VIN;Número de partes;Descripción de partes;Fecha creación')."\n";
 
 foreach($consultas as $consulta){
 

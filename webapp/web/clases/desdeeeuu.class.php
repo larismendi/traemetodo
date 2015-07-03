@@ -31,10 +31,9 @@ class DesdeEeuu{
                 "pais_destino" => strtoupper($campos[11]),
                 "ciudad_destino" => strtoupper($campos[12]),
                 "cantidad_caja" => strtoupper($campos[13]),
-                "total" => strtoupper($campos[14]),
-                "valor" => strtoupper($campos[15]),
-                "seguro" => strtoupper($campos[16]),
-                "descripcion" => strtoupper($campos[17]),
+                "valor" => strtoupper($campos[14]),
+                "seguro" => strtoupper($campos[15]),
+                "descripcion" => strtoupper($campos[16]),
                 "status" => 1,
                 "date_add" => $this->created_at);
             $result = $this->con->query_insert("desdeeeuu", $query);
@@ -47,5 +46,26 @@ class DesdeEeuu{
             }
         }
     }
+
+    function update_total($total, $id){
+        if($this->con->connect()==true){
+            $query = "UPDATE desdeeeuu SET total = '$total' WHERE id_desdeeeuu = '$id'";
+
+            //$query = 'UPDATE desdeeeuu SET total = "$total" WHERE id_desdeeeuu = "$id"';
+
+            $result = $this->con->query($query);
+
+            $this->con->close();
+
+            if($result){
+                $this->output = $result;
+                return $this->output;
+            }
+            else{
+                return $this->output;
+            }
+        }
+    }
+
 }
 ?>

@@ -79,7 +79,6 @@ if(isset($_POST['nombre']) && isset($_POST['email'])){
             $_POST['pais_destino'],
             $_POST['ciudad_destino'],
             $_POST['cantidad_caja'],
-            $_POST['total'],
             $_POST['valor'],
             $_POST['seguro'],
             $_POST['descripcion']
@@ -87,17 +86,30 @@ if(isset($_POST['nombre']) && isset($_POST['email'])){
         $id = $obj->insertar($datos);
 
         if($id){
-            $obj =new Cajas();
+            $obj2 =new Cajas();
+
+            $ref = $_POST['envio']=='Aereo'?166:1728;
+            $sub = 0;
 
             $tt = '<table width="100%" border="0" style="text-align: center">
                     <tr><th>Nro. Caja</th><th>Alto(in)</th><th>Ancho(in)</th><th>Largo(in)</th><th>Peso(lb)</th></tr>';
             for($v=1;$v<=10;$v++){
                 if($_POST['alto_'.$v] && $_POST['alto_'.$v] && $_POST['largo_'.$v] && $_POST['peso_'.$v]){
-                    $obj->insertar($_POST['alto_'.$v], $_POST['alto_'.$v], $_POST['largo_'.$v], $_POST['peso_'.$v]);
+
+                    $peso_vol = $_POST['alto_'.$v] * $_POST['alto_'.$v] * $_POST['largo_'.$v] / $ref;
+
+                    $sub += (($peso_vol > $_POST['peso_'.$v])?$peso_vol:$_POST['peso_'.$v]);
+
+                    $obj2->insertar($_POST['alto_'.$v], $_POST['alto_'.$v], $_POST['largo_'.$v], $_POST['peso_'.$v]);
                     $tt .= '<tr><td>'.$v.'</td><td>'.$_POST['alto_'.$v].'</td><td>'.$_POST['alto_'.$v].'</td><td>'.$_POST['largo_'.$v].'</td><td>'.$_POST['peso_'.$v].'</td></tr>';
                 }
             }
             $tt .= '</table>';
+
+            list($ent, $dec) = explode('.', $sub);
+            $total = ($dec)?$ent+1:$ent;
+
+            $obj->update_total($total, $id);
 
             $from    = "info@traemetodo.com";
             $subject = utf8_decode('Solicitud de envio desde EEUU a la web traemetodo.com');

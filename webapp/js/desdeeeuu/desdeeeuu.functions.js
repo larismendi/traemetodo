@@ -28,23 +28,6 @@ function fn_paginar(var_div, url){
     $(div).load(url);
 }
 
-function EliminarDato(id){
-    jConfirm('Desea eliminar este dato?','Mensaje de Confirmacion',function(r){
-        if(r){
-            $.ajax({
-                url: 'eliminar.php',
-                type: "GET",
-                data: "id="+id,
-                success: function(datos){
-                    jAlert(datos, 'Mensaje del sistema');
-                    $("#fila-"+id).remove();
-                }
-            });
-        }
-    });
-    return false;
-}
-
 function Cancelar(){
     $("#formulario").hide();
     $("#tabla").show();

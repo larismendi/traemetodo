@@ -573,7 +573,7 @@ if(isset($_POST['tipo'])){
         <select name="envio" id="envio" class="required">
             <option value="">Seleccione la modalidad de envío</option>
             <option value="Aereo">Aereo</option>
-            <option value="Matítimo">Matítimo</option>
+            <option value="Marítimo">Marítimo</option>
         </select>
         <label for="cliente"><strong>Cliente registrado?</strong></label>
         <div style="width: 15%; clear: both">

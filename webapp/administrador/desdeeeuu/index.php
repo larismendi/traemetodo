@@ -9,7 +9,7 @@
 <script src="../../js/jquery-1.4.2.min.js" type="text/javascript"></script>
 <script src="../../js/jquery.validate.js" type="text/javascript"></script>
 <script src="../../js/jquery.form.js" type="text/javascript"></script>
-<script src="../../js/repuestosautos/repuestosautos.functions.js" type="text/javascript"></script>
+<script src="../../js/desdeeeuu/desdeeeuu.functions.js" type="text/javascript"></script>
 <script src="../../js/jquery.ui.draggable.js" type="text/javascript"></script>
 <script src="../../js/jquery.alerts.js" type="text/javascript"></script>
 <script src="../../js/tinymce/jscripts/tiny_mce/jquery.tinymce.js" type="text/javascript"></script>
@@ -36,7 +36,7 @@
                           <span>Ordenar</span>
                           <span>
                               <select name="criterio_ordenar_por" id="criterio_ordenar_por">
-                                  <option value="id_repuestoauto">Id</option>
+                                  <option value="id_desdeeeuu">Id</option>
                                   <option value="nombre">Nombre</option>
                                   <option value="email">Email</option>
                                   <option value="pais">Pais</option>
