@@ -20,7 +20,7 @@ if(isset($_POST['tipo'])){
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Envío de la carga desde los EEUU</title>
-    <link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="file:///E|/traelotodo/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -686,7 +686,7 @@ if(isset($_POST['tipo'])){
         <div id="mensaje_return">PRESIONE ENVIAR PARA REALIZAR SU SOLICITUD.</div>
     </form>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
 <script type="text/javascript" src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>

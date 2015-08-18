@@ -4,7 +4,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="" content="Envíos aéreos y marítimos desde los EEUU, compras de repuestos, equipos electronicos, repuestos para yates y lanchas y mas." />
 <title><?=$title?></title>
-<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" type="text/css" href="file:///E|/traelotodo/favicon.ico"> 

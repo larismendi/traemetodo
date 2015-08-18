@@ -1,0 +1,113 @@
+application: mrpresta-test
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /webapp
+  static_dir: webapp
+  mime_type: application/octet-stream
+  application_readable: true
+
+- url: /equipos-electronicos.php
+  static_files: equipos-electronicos.php
+  upload: equipos-electronicos.php
+  mime_type: application/octet-stream
+
+- url: /repuestos-para-autos.php
+  static_files: repuestos-para-autos.php
+  upload: repuestos-para-autos.php
+  mime_type: application/octet-stream
+
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
+
+# Serve images as static resources.
+- url: /(.+\.(bmp|gif|ico|jpeg|jpg|png))$
+  static_files: \1
+  upload: .+\.(bmp|gif|ico|jpeg|jpg|png)$
+  application_readable: true
+
+- url: /css/images/(.*\.php)
+  static_files: css/images/\1
+  upload: css/images/(.*\.php)
+  mime_type: application/octet-stream
+
+- url: /css/images/(.*\.psd)
+  static_files: css/images/\1
+  upload: css/images/(.*\.psd)
+  mime_type: application/octet-stream
+
+- url: /css/fonts/(.*\.woff)
+  static_files: css/fonts/\1
+  upload: css/fonts/(.*\.woff)
+  mime_type: application/x-font-woff
+
+- url: /css/fonts/(.*\.otf)
+  static_files: css/fonts/\1
+  upload: css/fonts/(.*\.otf)
+  mime_type: font/opentype
+
+- url: /css/fonts/(.*\.eot)
+  static_files: css/fonts/\1
+  upload: css/fonts/(.*\.eot)
+  mime_type: application/vnd.ms-fontobject
+
+- url: /css/fonts/(.*\.ttf)
+  static_files: css/fonts/\1
+  upload: css/fonts/(.*\.ttf)
+  mime_type: font/ttf
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /images
+  static_dir: images
+
+- url: /img
+  static_dir: img
+
+- url: /includes
+  static_dir: includes
+  mime_type: application/octet-stream
+  application_readable: true
+
+- url: /compartir_a_un_amigo
+  static_dir: compartir_a_un_amigo
+
+- url: /sections2
+  static_dir: sections2
+
+- url: /sections
+  static_dir: sections
+  
+- url: /stats
+  static_dir: stats
+
+- url: /documentos
+  static_dir: documentos
+
+- url: /equipos-electronicos
+  static_dir: equipos-electronicos
+  
+- url: /header1
+  static_dir: header1
+
+- url: /repuestos-para-autos
+  static_dir: repuestos-para-autos
+
+- url: /repuestos-yates-lanchas
+  static_dir: repuestos-yates-lanchas
+  
+- url: /siguenos
+  static_dir: siguenos
+
+- url: /SpryAssets
+  static_dir: SpryAssets
+
+- url: /.*
+  script: index.php

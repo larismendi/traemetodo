@@ -45,7 +45,7 @@ if(isset($_REQUEST['token'])){
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="" content="Envíos aéreos y marítimos desde los EEUU, compras de repuestos, equipos electronicos, repuestos para yates y lanchas y mas." />
 <title>Traemetodo, Envíos aéreos y marítimos desde los EEUU</title>
-<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/traelotodo/favicon.ico" type="text/css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -342,7 +342,7 @@ label.error { color: red; font-weight: bold; margin-bottom: 10px; padding-bottom
         </td>
 	</tr>
 </table>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <script type="text/javascript">
 $(function(){

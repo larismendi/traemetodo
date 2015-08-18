@@ -6,7 +6,7 @@ date_default_timezone_set('America/New_York');
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Repuestos para autos de todas las marcas</title>
-<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="file:///E|/traelotodo/favicon.ico">
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -524,7 +524,7 @@ a.boton:hover span.amarillo { background-color: #222222; color: white; padding: 
         <div id="mensaje_return">Puede envíar su consulta o cualquier solicitud.</div>
 	</form>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>

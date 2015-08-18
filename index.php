@@ -617,8 +617,8 @@ function MM_swapImage() { //v3.0
 				<tr>
 					<td width="196" align="center" valign="top"><a href="http://www.amazon.com/" target="_blank"><img src="img/amazon.fw.png" alt="Amazon compras" width="160" height="200" border="0"></a></td>
 					<td width="764" align="center" valign="top" style="z-index:-100">
-						<SCRIPT charset="utf-8" type="text/javascript" src="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=GetScriptTemplate"> </SCRIPT>
-						<NOSCRIPT><A HREF="http://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>					</td>
+						<SCRIPT charset="utf-8" type="text/javascript" src="https://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=GetScriptTemplate"> </SCRIPT>
+						<NOSCRIPT><A HREF="https://ws-na.amazon-adsystem.com/widgets/q?rt=tf_ssw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwidgetsamazon-20%2F8003%2Ffc6c3fda-0e6e-4aa2-9259-3368efdd8f36&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>					</td>
 				</tr>
 			</table>
         </td>
@@ -878,7 +878,7 @@ function MM_swapImage() { //v3.0
 
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57426821-1', 'auto');  ga('send', 'pageview');</script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 <script type="text/javascript" src="js/jquery.slitslider.js"></script>
 <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>

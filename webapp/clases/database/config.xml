@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configdata>
-	<nev>local</nev>
+	<nev>produccion</nev>
 	<produccion>
 		<url>http://www.traemetodo.com</url>
 		<server>traemetodo.db.8829593.hostedresource.com</server>

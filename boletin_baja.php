@@ -24,7 +24,7 @@ if(isset($_REQUEST['token'])){
 <meta name="" content="Envíos aéreos y marítimos desde los EEUU, compras de repuestos, equipos electronicos, repuestos para yates y lanchas y mas." />
 <title>Traemetodo, Envíos aéreos y marítimos desde los EEUU</title>
 
-<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/traelotodo/favicon.ico" type="text/css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
